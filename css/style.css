@@ -103,3 +103,57 @@ body{
     background-color: var(--magenta);
     color: #FFFFFF;
 }
+
+.attribution{
+   display: flex;
+   width: 100%;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   margin-top: 25px;
+   flex-shrink: 0;
+   bottom: 0;
+   
+}
+
+.attribution a{
+    padding: 25px;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+
+@media(max-width:550px){
+
+    body{
+        background-image: url(../images/bg-mobile.svg);
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    .main{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+    }
+    .rigth{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .rigth h1{
+        font-size: 27px;
+        padding: 0 35px;
+        text-align: center;
+    }
+    .rigth p{
+        font-size: 15px;
+        padding: 0 35px;
+        text-align: center;
+        line-height: 1.5;
+    }
+    .rigth button{
+    
+    }
+
+}
